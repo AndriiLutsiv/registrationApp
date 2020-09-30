@@ -1,0 +1,22 @@
+.CustomButton {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease 0s;
+    box-shadow: 0 3px rgb(71, 71, 71);
+}
+
+.CustomButton:hover {
+    color: white;
+    background: #acacac;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-out;
+}
+
+.CustomButton:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}

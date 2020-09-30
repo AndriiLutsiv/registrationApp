@@ -1,0 +1,19 @@
+.normal {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+
+}
+
+.error {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+
+.error::placeholder {
+    color: red;
+}

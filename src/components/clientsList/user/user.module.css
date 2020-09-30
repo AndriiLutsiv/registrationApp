@@ -1,0 +1,27 @@
+.User {
+    padding: 15px 25px;
+    border: 1px solid grey;
+    width: 25%;
+    margin: auto;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.User:hover {
+    transform: scale(1.08);
+    background-color: rgba(211, 236, 243, 0.308);
+}
+
+
+
+@media(min-width: 450px) {
+    .User {
+        width: 15%;
+    }
+}
+
+@media(min-width: 850px) {
+    .User {
+        width: 10%;
+    }
+}
